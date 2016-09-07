@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login and Registration</title>
+    </head>
+    <body>
+        <div id="container">
+
+            <div class="success">
+                <h1>Hello, {{ first_name }}!</h1>
+                <p>You have successfully registered (or logged in)!</p>
+            </div><!--end success-->
+            <a href="{% url 'logout' %}">LOGOUT</a>
+        </div><!--end container-->
+    </body>
+</html>
